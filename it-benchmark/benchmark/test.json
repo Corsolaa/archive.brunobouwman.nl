@@ -1,0 +1,91 @@
+[
+  {
+    "name": "security",
+    "questions": [
+      {
+        "question": "Ik weet in welke cloud platformen en applicaties van derden mijn medewerkers zakelijke informatie opslaan",
+        "points": 10
+      },
+      {
+        "question": "Ik weet zeker dat mijn systemen voorzien zijn van actuele software versies",
+        "points": 10
+      },
+      {
+        "question": "Ik ben bekend met het Zero-Trust principe",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "name": "business",
+    "questions": [
+      {
+        "question": "Ik controleer met regelmaat mijn back-up- en restoreplannen",
+        "points": 25
+      },
+      {
+        "question": "Ik heb een business continuiteitsplan opgesteld met daarin een duidelijk ICT-component",
+        "points": 25
+      },
+      {
+        "question": "Ik controleer met regelmaat mij business continuiteitsplan",
+        "points": 25
+      },
+      {
+        "question": "Na elke grote organisatie/ict wijziging werk ik het business continuiteitsplan bij",
+        "points": 25
+      }
+    ]
+  },
+  {
+    "name": "ict_processen",
+    "questions": [
+      {
+        "question": "Ik heb een goed en actueel overzicht van al mijn ICT assets",
+        "points": 10
+      },
+      {
+        "question": "Ik heb een goed werkend in-, uit- en doorstromingsproces voor mijn medewerkers",
+        "points": 10
+      },
+      {
+        "question": "Mijn medewerkers hebben alleen toegang tot informatie, systemen en applicaties die zij voor hun actuele functie nodig hebben",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "name": "service_desk",
+    "questions": [
+      {
+        "question": "Ik beoordeel de ICT ondersteuning binnen de organisatie met een 8 of hoger?",
+        "points": 20
+      },
+      {
+        "question": "Ik evalueer regelmatig de gebruikersvragen, zodat ik kan sturen op verbetering",
+        "points": 20
+      },
+      {
+        "question": "Ik vind het belangrijker dat mijn eindgebruikers goed geholpen worden, dan dat de telefoon snel wordt opgenomen",
+        "points": 20
+      }
+    ]
+  },
+  {
+    "name": "service_operations",
+    "questions": [
+      {
+        "question": "Ik beschik over een actueel overzicht van alle software producten die ik in mijn organisatie gebruik",
+        "points": 10
+      },
+      {
+        "question": "Ik weet welke koppelingen mijn kernapplicaties hebben met systemen van derden",
+        "points": 10
+      },
+      {
+        "question": "Ik weet welke informatie mijn applicaties en systemen met elkaar uitwisselen",
+        "points": 10
+      }
+    ]
+  }
+]

@@ -6,21 +6,21 @@ const inputField = document.createElement("input");
 const searchBar = document.querySelector("#searchbar");
 
 
-function start(){
+function start() {
     createInput();
     searchBar.append(inputField);
     output.append(ul);
     addToPage(myJson.movies);
 }
 
-function createInput(){
+function createInput() {
     inputField.setAttribute("type", "text");
     inputField.placeholder = "Search for names..";
     inputField.id = "input";
 }
 
-function inputSearch(){
-    let i, a, filter,li;
+function inputSearch() {
+    let i, a, filter, li;
     filter = inputField.value.toUpperCase();
     li = ul.getElementsByClassName("list");
     for (i = 0; i < li.length; i++) {
@@ -33,8 +33,8 @@ function inputSearch(){
     }
 }
 
-function addToPage(arr){
-    arr.forEach((ele)=>{
+function addToPage(arr) {
+    arr.forEach((ele) => {
         const li = document.createElement("li");
         li.textContent = ele;
         li.classList.add("list");
