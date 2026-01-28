@@ -1,0 +1,134 @@
+/* All page attributes */
+:root {
+  --text-color: white;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--text-color);
+  font-family: Sans-serif, serif;
+}
+
+a {
+  width: 25%;
+  text-decoration: none;
+  color: white;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-image: url("./endless-constellation.svg");
+  background-size: auto;
+  background-color: #330033;
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  color: white;
+}
+
+/* Puts the content whit this class in the center */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  color: white;
+  text-align: center;
+
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 5rem;
+}
+
+.header p {
+  font-size: 2rem;
+}
+
+.content {
+  width: 1000px;
+}
+
+.phone {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+
+.app {
+  text-align: center;
+  width: 25%;
+}
+
+.app .icon {
+  height: auto;
+}
+.app .icon i {
+  font-size: 190px;
+}
+
+.app .text {
+  margin-top: 10px;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 1020px) {
+  .content {
+    width: 100%;
+  }
+  .app {
+    width: calc(100% / 3);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .app .icon i {
+    font-size: 100px;
+  }
+
+  .app .text {
+    font-size: 1em;
+  }
+  /*.app {*/
+  /*    width: 50%;*/
+  /*}*/
+}
+
+@media screen and (max-width: 800px) {
+  .header h1 {
+    font-size: 3rem;
+  }
+
+  .header p {
+    font-size: 1.2rem;
+  }
+
+  .table {
+    font-size: 1.2rem;
+  }
+}
